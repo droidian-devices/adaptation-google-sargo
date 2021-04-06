@@ -1,0 +1,3 @@
+/usr/lib/adaptation-google-sargo/sources.list.d/bluebinder.list /etc/apt/sources.list.d/adaptation-google-sargo-bluebinder.list
+/usr/lib/adaptation-google-sargo/preferences.d/30-bluebinder /etc/apt/preferences.d/30-bluebinder
+/usr/lib/adaptation-google-sargo/package-sideload-create.d/bluebinder /etc/package-sideload-create.d/bluebinder
