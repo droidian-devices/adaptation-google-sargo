@@ -1,0 +1,23 @@
+Source: adaptation-google-sargo
+Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian/adaptation-google-sargo
+Vcs-Git: https://github.com/droidian/adaptation-google-sargo.git
+
+Package: adaptation-google-sargo
+Architecture: all
+Depends: ${misc:Depends},
+         linux-bootimage-google-sargo,
+         adaptation-hybris-api28-phone,
+         adaptation-google-sargo-configs,
+Description: adapatation-google-sargo - meta
+ Google Pixel 3a api28 adaptation metapackage
+
+Package: adaptation-google-sargo-configs
+Architecture: all
+Depends: ${misc:Depends},
+         adaptation-google-sargo (= ${binary:Version}),
+Description: Google Pixel 3a's specific adaptation configs

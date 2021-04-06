@@ -1,0 +1,6 @@
+/etc/apt/sources.list.d
+/etc/apt/preferences.d
+/etc/udev/rules.d
+/etc/package-sideload-create.d
+/usr/lib/adaptation-google-sargo/preferences
+/usr/lib/adaptation-google-sargo/sources
