@@ -1,0 +1,3 @@
+Package: bluebinder
+Pin: release l=hybris-mobian\ (droidian-bluebinder-bullseye-address-finding-fix\ channel)
+Pin-Priority: 1003
