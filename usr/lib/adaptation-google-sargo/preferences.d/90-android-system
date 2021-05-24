@@ -1,0 +1,6 @@
+# TEMP: forcibly install on older system image until current issues
+# are solved
+Package: android-system-gsi-28
+Pin: version 9.0.0+r1+ubports20201207+git20210119000025.c8937c4.bullseye.production
+Pin-Priority: 1004
+
