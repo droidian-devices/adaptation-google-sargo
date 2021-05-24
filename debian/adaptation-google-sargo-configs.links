@@ -2,3 +2,4 @@
 /usr/lib/adaptation-google-sargo/preferences.d/30-bluebinder /etc/apt/preferences.d/30-bluebinder
 /usr/lib/adaptation-google-sargo/preferences.d/90-android-system /etc/apt/preferences.d/90-android-system
 /usr/lib/adaptation-google-sargo/package-sideload-create.d/bluebinder /etc/package-sideload-create.d/bluebinder
+/usr/lib/adaptation-google-sargo/package-sideload-create.d/android-system /etc/package-sideload-create.d/android-system
