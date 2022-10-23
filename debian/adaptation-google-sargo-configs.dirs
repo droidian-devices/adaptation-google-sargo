@@ -4,3 +4,4 @@
 /etc/package-sideload-create.d
 /usr/lib/adaptation-google-sargo/preferences
 /usr/lib/adaptation-google-sargo/sources
+/var/lib/bluetooth/board-address
