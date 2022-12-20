@@ -1,2 +1,3 @@
 /usr/lib/adaptation-google-sargo/preferences.d/90-android-system /etc/apt/preferences.d/90-android-system
 /usr/lib/adaptation-google-sargo/package-sideload-create.d/android-system /etc/package-sideload-create.d/android-system
+/usr/lib/adaptation-google-sargo/droid-get-bt-address.sh /usr/bin/droid/droid-get-bt-address.sh
