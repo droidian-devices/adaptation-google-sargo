@@ -1,6 +1,7 @@
-/etc/apt/sources.list.d
-/etc/apt/preferences.d
+/usr/bin/droid
 /etc/udev/rules.d
-/etc/package-sideload-create.d
-/usr/lib/adaptation-google-sargo/preferences
-/usr/lib/adaptation-google-sargo/sources
+/usr/share/keyrings
+/etc/phosh
+/etc/apt/preferences.d
+/var/lib/batman
+/usr/lib/droidian/device

@@ -1,0 +1,5 @@
+adaptation-google-sargo (0.0.0+git20230319092736.2de92e1.bookworm) bookworm; urgency=medium
+
+  * add flash-generic service we don't want to use AB leave it open if someone wants to dual boot
+
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 09:18:30 +0330

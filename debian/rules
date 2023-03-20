@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+override_dh_installsystemd:
+	dh_installsystemd -padaptation-google-sargo-configs --name=batman batman.service --no-start
+	dh_installsystemd -padaptation-google-sargo-configs --name=flashlight-perm flashlight-perm.service --no-start
+	dh_installsystemd -padaptation-google-sargo-configs --name=flash-generic flash-generic.service --no-start

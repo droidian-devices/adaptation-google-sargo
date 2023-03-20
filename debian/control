@@ -1,5 +1,5 @@
 Source: adaptation-google-sargo
-Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)

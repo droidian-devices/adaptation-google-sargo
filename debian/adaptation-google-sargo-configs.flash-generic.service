@@ -1,0 +1,12 @@
+[Unit]
+Description=Symlink A partition to a generic name
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'if [ $(/usr/sbin/android_bootctl get-current-slot) == "0" ]; then ln -s /dev/disk/by-partlabel/boot_a /dev/disk/by-partlabel/boot; else ln -s /dev/disk/by-partlabel/boot_b /dev/disk/by-partlabel/boot; fi'
+ExecStart=/bin/bash -c 'if [ $(/usr/sbin/android_bootctl get-current-slot) == "0" ]; then ln -s /dev/disk/by-partlabel/dtbo_a /dev/disk/by-partlabel/dtbo; else ln -s /dev/disk/by-partlabel/dtbo_b /dev/disk/by-partlabel/dtbo; fi'
+ExecStart=/bin/bash -c 'if [ $(/usr/sbin/android_bootctl get-current-slot) == "0" ]; then ln -s /dev/disk/by-partlabel/vbmeta_a /dev/disk/by-partlabel/vbmeta; else ln -s /dev/disk/by-partlabel/vbmeta_b /dev/disk/by-partlabel/vbmeta; fi'
+
+[Install]
+WantedBy=multi-user.target

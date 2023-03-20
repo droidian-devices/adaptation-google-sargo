@@ -1,0 +1,1 @@
+deb [arch=arm64 signed-by=/usr/share/keyrings/sargo.gpg] http://mirror.bardia.tech/sargo bookworm main
