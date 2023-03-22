@@ -15,7 +15,6 @@ Depends: ${misc:Depends},
          android-system-google-sargo,
          adaptation-google-sargo-configs,
          linux-bootimage-google-sargo,
-         droidian-sysfs-torch,
          wlr-randr,
 Description: adapatation-google-sargo - meta
  Google Pixel 3a api28 adaptation metapackage

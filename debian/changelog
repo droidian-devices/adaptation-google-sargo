@@ -1,5 +1,5 @@
-adaptation-google-sargo (0.0.0+git20230319092736.2de92e1.bookworm) bookworm; urgency=medium
+adaptation-google-sargo (0.0.0+git20230322092736.7b3b846.bookworm) bookworm; urgency=medium
 
-  * add flash-generic service we don't want to use AB leave it open if someone wants to dual boot
+  * drop the external repo and add droidian-sysfs-torch binary
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 09:18:30 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 22 Mar 2023 05:18:30 +0330
