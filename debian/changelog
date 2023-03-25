@@ -1,5 +1,5 @@
-adaptation-google-sargo (0.0.0+git20230322092736.7b3b846.bookworm) bookworm; urgency=medium
+adaptation-google-sargo (0.0.0+git20230325291872.3997ecb.bookworm) bookworm; urgency=medium
 
-  * drop the external repo and add droidian-sysfs-torch binary
+  * disable suspend
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 22 Mar 2023 05:18:30 +0330
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Sat, 25 Mar 2023 08:28:30 +0330
