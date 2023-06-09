@@ -3,7 +3,6 @@
 /usr/share/keyrings
 /usr/share/glib-2.0/schemas
 /etc/phosh
-/var/lib/batman
 /usr/lib/droidian/device
 /usr/lib/systemd/user
 /opt/droidian-sysfs-torch
