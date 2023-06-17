@@ -14,8 +14,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
          android-system-google-sargo,
          adaptation-google-sargo-configs,
-         linux-bootimage-google-sargo,
-         batman,
+         linux-bootimage-google-sargo
 Description: adapatation-google-sargo - meta
  Google Pixel 3a api28 adaptation metapackage
 
