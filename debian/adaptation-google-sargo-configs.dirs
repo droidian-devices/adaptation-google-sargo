@@ -3,5 +3,6 @@
 /usr/share/keyrings
 /usr/share/glib-2.0/schemas
 /etc/phosh
+/etc/systemd/system/android-mount.service.d
 /usr/lib/droidian/device
 /usr/lib/systemd/user
