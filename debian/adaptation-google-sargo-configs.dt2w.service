@@ -1,0 +1,11 @@
+[Unit]
+Description=enable dt2w
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'echo 1 > /sys/devices/platform/soc/a84000.i2c/i2c-2/2-0020/input/input2/wake_gesture'
+
+[Install]
+WantedBy=graphical.target
