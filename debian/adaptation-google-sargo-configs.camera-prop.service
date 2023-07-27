@@ -1,0 +1,12 @@
+[Unit]
+Description=set the right prop for camera
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'setprop persist.camera.logical.default 1'
+ExecStart=/bin/sh -c 'setprop persist.vendor.camera.HAL3.enabled 0'
+
+[Install]
+WantedBy=graphical.target

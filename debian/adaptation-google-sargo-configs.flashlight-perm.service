@@ -1,5 +1,5 @@
 [Unit]
-Description=Give flashlight nodes the correct permission to let Phosh use it in combination with droidian-sysfs-torch
+Description=give flashlight nodes the correct permission to let Phosh use it
 Requires=lxc@android.service
 After=phosh.service
 
