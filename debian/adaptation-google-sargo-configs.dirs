@@ -4,5 +4,6 @@
 /usr/share/glib-2.0/schemas
 /etc/phosh
 /etc/systemd/system/android-mount.service.d
+/etc/systemd/system/iio-sensor-proxy.service.d
 /usr/lib/droidian/device
 /usr/lib/systemd/user
