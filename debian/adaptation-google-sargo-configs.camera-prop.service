@@ -7,6 +7,7 @@ After=phosh.service
 Type=oneshot
 ExecStart=/bin/sh -c 'setprop persist.camera.logical.default 1'
 ExecStart=/bin/sh -c 'setprop persist.vendor.camera.HAL3.enabled 0'
+ExecStart=/bin/sh -c 'setprop debug.stagefright.ccodec 0'
 
 [Install]
 WantedBy=graphical.target
